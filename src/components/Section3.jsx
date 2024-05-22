@@ -99,11 +99,12 @@ function Section3() {
 
   return (
     <section
-      className={`bg-center bg-no-repeat bg-gray-700 bg-blend-multiply max-w-[1540px] h-[1100px] md:h-[800px]  mx-auto text-white flex flex-col justify-center items-center`}
+      id="section-3"
+      className={`pb-[80px] bg-center bg-no-repeat bg-gray-700 bg-blend-multiply max-w-[1540px] h-auto mx-auto text-white flex flex-col justify-start md:justify-center items-center`}
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="text-5xl">Technical Skills</div>
-      <div className=" grid md:grid-cols-3 gap-6 my-10">
+      <div className="text-5xl mt-[80px]">Technical Skills</div>
+      <div className=" grid md:grid-cols-3 sm:grid-cols-2 gap-6 my-10">
         <div className="">
           <Accordian title="Languages">
             {languages.map((item) => (

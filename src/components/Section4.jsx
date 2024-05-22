@@ -12,12 +12,14 @@ function Section4() {
 
   return (
     <section
-      className={`flex-col bg-gradient-to-r from-gray-800 to-stone-950 max-w-[1540px] h-[2200px] md:h-[800px] mx-auto text-white flex justify-center items-center`}
+      id="section-4"
+      className={`flex-col bg-gradient-to-r from-gray-800 to-stone-950 max-w-[1540px] h-auto mx-auto text-white flex justify-center items-center pb-[80px]`}
     >
-      <div className="text-5xl py-10">Modern Offerings</div>
-      <div className="grid md:grid-cols-2 md:w-auto w-[400px]">
+      <div className="text-5xl mt-[80px] pb-10">Modern Offerings</div>
+      <div className="grid md:grid-cols-2 sm:grid-cols-2 md:w-auto sm:w-auto w-[370px]">
         <RectCard
-          image={"https://wallpapercave.com/wp/wp6690992.jpg"}
+          title="Yotutube-Genius"
+          color="to-cyan-900"
           abstract="Youtube Genius App: Built on the backbone of RAG"
         >
           The App revolutionizes YouTube video consumption, offering efficient
@@ -26,7 +28,8 @@ function Section4() {
           overload.
         </RectCard>
         <RectCard
-          image={"https://wallpapercave.com/wp/wp6690992.jpg"}
+          title="Damage-Detection"
+          color="to-purple-900"
           abstract="Car Damage Detection YoloV8"
         >
           Insurance firms struggle with time-consuming and subjective car damage
@@ -35,7 +38,8 @@ function Section4() {
           damage, optimizing claims processing and improving client experience.
         </RectCard>
         <RectCard
-          image={"https://wallpapercave.com/wp/wp6690992.jpg"}
+          title="Smart-Search"
+          color="to-violet-900"
           abstract="SmartSearch: A Database-Free Image Search"
         >
           SmartSearch leverages advanced machine learning techniques to create a
@@ -44,7 +48,8 @@ function Section4() {
           results without the need for annotations or external databases.
         </RectCard>
         <RectCard
-          image={"https://wallpapercave.com/wp/wp6690992.jpg"}
+          title="Text-Classification"
+          color="to-blue-900"
           abstract="Text Classification - Predict the fake news"
         >
           The App revolutionizes YouTube video consumption, offering efficient
