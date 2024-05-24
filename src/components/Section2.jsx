@@ -2,11 +2,12 @@ import { FaMicrochip } from "react-icons/fa6";
 import { FaCode } from "react-icons/fa6";
 import { GrSystem } from "react-icons/gr";
 import { FaBoxOpen } from "react-icons/fa";
+import backgroundImage from "../assets/analysis.jpeg";
 function Section2() {
   return (
     <section
       id="section-2"
-      className="bg-gray-900 h-auto md:h-[800px] max-w-[1540px] mx-auto text-white flex flex-col justify-center items-center"
+      className=" bg-gray-900 h-auto md:h-[800px] max-w-[1540px] mx-auto text-white flex flex-col justify-center items-center"
     >
       <div className="md:text-5xl text-4xl mt-[80px] md:mt-0">
         What I Am Great At
@@ -18,8 +19,8 @@ function Section2() {
         Because in this game, I'm not just a player – I'm the one writing the
         rules.
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10 pb-[80px] md:pb-0">
-        <div className="w-[150px] md:w-[200px] cursor-pointer bg-black hover:scale-110 duration-300 shadow-2xl shadow-fuchsia-900 h-[160px] md:h-[220px] rounded text-gray-400 flex flex-col justify-center items-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10 pb-[80px] md:pb-0 rounded-lg">
+        <div className="w-[150px] md:w-[200px] cursor-pointer bg-black  hover:scale-110 duration-300 shadow-2xl shadow-fuchsia-900 h-[160px] md:h-[220px] rounded text-gray-400 flex flex-col justify-center items-center">
           <GrSystem className="text-4xl md:text-6xl mb-5 text" />
           <div>System Design</div>
         </div>
