@@ -3,7 +3,7 @@ function Section1() {
   return (
     <section
       id="section-1"
-      className={`max-w-[1540px] bg-cover bg-center bg-no-repeat bg-slate-600 md:bg-slate-500 bg-blend-multiply mx-auto md:h-screen max-h-[900px]  text-white justify-center flex flex-col p-10`}
+      className={`max-w-[1540px] bg-cover bg-center bg-no-repeat bg-slate-600 md:bg-slate-500 bg-blend-multiply mx-auto md:h-[100vh] max-h-[900px]  text-white justify-center flex flex-col p-10`}
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="flex md:flex-row flex-col md:mt-0 mt-20">

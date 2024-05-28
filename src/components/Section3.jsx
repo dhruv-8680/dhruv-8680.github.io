@@ -100,10 +100,13 @@ function Section3() {
   return (
     <section
       id="section-3"
-      className={`pb-[80px] bg-slate-700 bg-blend-multiply max-w-[1540px] h-auto md:h-[100vh] mx-auto text-white flex flex-col justify-start md:justify-center items-center`}
+      className={`pb-[80px] bg-slate-900 bg-blend-multiply max-w-[1540px] h-auto md:h-full mx-auto text-white flex flex-col justify-start md:justify-center items-center`}
     >
-      <div className="text-5xl mt-[80px]">Technical Skills</div>
-      <div className=" grid md:grid-cols-3 sm:grid-cols-2 gap-6 my-10">
+      <div className="text-5xl mt-[80px]">
+        Technical Skills
+        <div className="h-[2px] w-full bg-gradient-to-r from-indigo-400 to-green-300 my-2"></div>
+      </div>
+      <div className=" grid md:grid-cols-3 sm:grid-cols-2 gap-6 my-10 bg-black shadow-lg shadow-cyan-950 rounded-2xl p-5">
         <div className="">
           <Accordian title="Languages">
             {languages.map((item) => (

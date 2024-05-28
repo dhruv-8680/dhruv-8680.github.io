@@ -13,9 +13,12 @@ function Section4() {
   return (
     <section
       id="section-4"
-      className={`md:h-[100vh] flex-col bg-gradient-to-r from-gray-800 to-stone-950 max-w-[1540px] h-auto mx-auto text-white flex justify-center items-center pb-[80px]`}
+      className={`md:h-[100vh] flex-col bg-black max-w-[1540px] h-auto mx-auto text-white flex justify-center items-center pb-[80px]`}
     >
-      <div className="text-5xl mt-[80px] pb-10">Modern Offerings</div>
+      <div className="text-5xl mt-[80px] pb-10">
+        Modern Offerings
+        <div className="h-[2px] w-full bg-gradient-to-r from-indigo-400 to-green-300 my-2"></div>
+      </div>
       <div className="grid md:grid-cols-2 sm:grid-cols-2 md:w-auto sm:w-auto w-[370px]">
         <RectCard
           title="Yotutube-Genius"
@@ -29,7 +32,7 @@ function Section4() {
         </RectCard>
         <RectCard
           title="Damage-Detection"
-          color="to-purple-900"
+          color="to-fuchsia-900"
           abstract="Car Damage Detection YoloV8"
         >
           Insurance firms struggle with time-consuming and subjective car damage

@@ -5,10 +5,13 @@ function Section5() {
   return (
     <section
       id="section-5"
-      className="bg-gray-900 h-auto md:h-[300px] max-w-[1540px] mx-auto text-white flex flex-col justify-center items-center pb-[80px]"
+      className="bg-gray-900 h-auto md:h-[300px] max-w-[1540px] mx-auto text-white flex flex-col justify-center items-center pb-[80px] rounded-2xl"
     >
       <div></div>
-      <div className="text-5xl mb-10 mt-[80px]">Contact Me</div>
+      <div className="text-5xl mb-10 mt-[80px]">
+        Contact Me
+        <div className="h-[2px] w-full bg-gradient-to-r from-indigo-400 to-green-300 my-2"></div>
+      </div>
       <div className="flex flex-col md:flex-row md:justify-around w-full">
         <div className="grid grid-cols-3 my-4">
           <SlPhone className="text-5xl p-1 text-cyan-800 ml-auto" />

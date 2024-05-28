@@ -8,13 +8,13 @@ function Footer() {
   return (
     <div>
       <div className=" h-auto md:h-[180px] w-full md:w-[1560px] mx-auto bg-black text-white flex md:flex-row flex-col justify-around px-10 items-start pt-[40px]">
-        <div className="text-4xl md:text-6xl my-2 mx-auto md:mx-0 ">
+        <div className="text-4xl md:text-4xl my-2 mx-auto md:mx-0 ">
           <a
             href="#"
             className="transition duration-300"
             onClick={() => scrollToSection("section-1")}
           >
-            DHRUV
+            dhruv-8680
           </a>
         </div>
         <div className="mt-5 md:mt-0">
