@@ -5,7 +5,7 @@ function Section5() {
   return (
     <section
       id="section-5"
-      className="bg-gray-900 h-auto md:h-[300px] max-w-[1540px] mx-auto text-white flex flex-col justify-center items-center pb-[80px] rounded-2xl"
+      className=" bg-gray-900 h-auto md:h-[300px] max-w-[1540px] mx-auto text-white flex flex-col justify-center items-center pb-[80px] rounded-2xl"
     >
       <div></div>
       <div className="text-5xl mb-10 mt-[80px]">

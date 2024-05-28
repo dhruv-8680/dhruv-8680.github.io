@@ -29,7 +29,15 @@ function Section4() {
           summarization and question generation. By condensing hours of content
           into concise summaries, users save time and avoid information
           overload.
+          <a
+            href="https://youtube-genius-frontend-741085b910b5.herokuapp.com/"
+            target="_blank"
+            className="text-blue-400"
+          >
+            {" Preview App"}
+          </a>
         </RectCard>
+
         <RectCard
           title="Damage-Detection"
           color="to-fuchsia-900"
@@ -39,6 +47,13 @@ function Section4() {
           assessments, causing delays and customer dissatisfaction. To address
           this, it's an computer vision app to detect and classify outer body
           damage, optimizing claims processing and improving client experience.
+          <a
+            href="https://github.com/dhruv-8680/Damage-Detection/blob/main/Car%20Damage%20Detection%20YoloV8.ipynb"
+            target="_blank"
+            className="text-blue-400"
+          >
+            {" view code"}
+          </a>
         </RectCard>
         <RectCard
           title="Smart-Search"
@@ -59,6 +74,13 @@ function Section4() {
           summarization and question generation. By condensing hours of content
           into concise summaries, users save time and avoid information
           overload.
+          <a
+            href="https://github.com/dhruv-8680/News-Text-Classification/blob/main/Text%20Classification%20%7C%20BERT.ipynb"
+            target="_blank"
+            className="text-blue-400"
+          >
+            {" view code"}
+          </a>
         </RectCard>
       </div>
     </section>
