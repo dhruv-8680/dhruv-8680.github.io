@@ -7,7 +7,7 @@ function Section2() {
   return (
     <section
       id="section-2"
-      className=" bg-gray-900 h-auto md:h-[800px] max-w-[1540px] mx-auto text-white flex flex-col justify-center items-center"
+      className=" bg-slate-800 h-auto md:h-[100vh] max-w-[1540px] mx-auto text-white flex flex-col justify-center items-center"
     >
       <div className="md:text-5xl text-4xl mt-[80px] md:mt-0">
         What I Am Great At

@@ -13,7 +13,7 @@ function Section4() {
   return (
     <section
       id="section-4"
-      className={`flex-col bg-gradient-to-r from-gray-800 to-stone-950 max-w-[1540px] h-auto mx-auto text-white flex justify-center items-center pb-[80px]`}
+      className={`md:h-[100vh] flex-col bg-gradient-to-r from-gray-800 to-stone-950 max-w-[1540px] h-auto mx-auto text-white flex justify-center items-center pb-[80px]`}
     >
       <div className="text-5xl mt-[80px] pb-10">Modern Offerings</div>
       <div className="grid md:grid-cols-2 sm:grid-cols-2 md:w-auto sm:w-auto w-[370px]">

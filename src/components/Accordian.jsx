@@ -19,7 +19,7 @@ function Accordian({ title, children }) {
         </div>
       </div>
       <div className={`${toggle ? "" : "hidden"}`}>
-        <hr className="mx-auto my-5 w-full" />
+        <hr className="mx-auto my-5 w-full overflow-y-auto" />
         {children}
       </div>
     </div>

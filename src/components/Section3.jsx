@@ -100,8 +100,7 @@ function Section3() {
   return (
     <section
       id="section-3"
-      className={`pb-[80px] bg-center bg-no-repeat bg-gray-700 bg-blend-multiply max-w-[1540px] h-auto mx-auto text-white flex flex-col justify-start md:justify-center items-center`}
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      className={`pb-[80px] bg-slate-700 bg-blend-multiply max-w-[1540px] h-auto md:h-[100vh] mx-auto text-white flex flex-col justify-start md:justify-center items-center`}
     >
       <div className="text-5xl mt-[80px]">Technical Skills</div>
       <div className=" grid md:grid-cols-3 sm:grid-cols-2 gap-6 my-10">
